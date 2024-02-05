@@ -25,7 +25,7 @@ const IndexPage: NextPage = () => {
 
   return (
     <div>
-      <button onClick={handleClick}>One more cat!</button>
+      <button onClick={handleClick}>ほかのにゃんこも見る</button>
       <div>{loading || <img src={imageUrl} />}</div>;
     </div>
   );
